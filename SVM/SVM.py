@@ -1,6 +1,5 @@
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
-from sklearn import linear_model
 from sklearn.svm import SVC
 
 def accuracy(y_test,y_pred):
